@@ -1,0 +1,60 @@
+"*":
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-material-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    invisibles: {}
+    fontFamily: "hack"
+    tabLength: 4
+    showInvisibles: true
+    showIndentGuide: true
+    scrollPastEnd: true
+  "git-diff": {}
+  "atom-material-ui":
+    fontSize: "20"
+    accentColor: "Cyan"
+    showTabIcons: "Show on active tab"
+    tabSize: "Big"
+    slimScrollbar: true
+    depth: true
+    panelContrast: true
+    rippleAccentColor: true
+    ui:
+      accentColor: "Yellow"
+      slimScrollbar: true
+    tabs:
+      showTabIcons: "Show on active tab"
+      rippleAccentColor: true
+    panels:
+      depth: true
+    treeView:
+      compactTreeView: true
+    fonts:
+      fontSize: "Big"
+  linter:
+    statusIconScope: "File"
+    showErrorTabLine: true
+    errorPanelHeight: 44
+  "linter-pylint":
+    rcFile: "~/.pylintrc"
+    pythonPath: "%p"
+    executable: "pylint2"
+  "one-dark-ui":
+    fontSize: 14
+  minimap:
+    absoluteMode: true
+    scrollAnimation: true
+  "linter-cpplint":
+    cpplintExecutablePath: "/usr/bin/cpplint"
+  "linter-clang": {}
+  "exception-reporting":
+    userId: "fd4cdb33-6799-960c-dda8-57775c1d9a86"
+  "markdown-writer":
+    siteEngine: "hexo"
+  "autocomplete-python":
+    pythonExecutable: "python2"
+  "highlight-selected": {}
